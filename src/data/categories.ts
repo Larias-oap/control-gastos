@@ -1,13 +1,13 @@
 import type { CategoryMap, TransactionType } from '../types';
 
 export const EXPENSE_CATEGORIES: CategoryMap = {
-  HOGAR: ['Arriendo'],
-  ALIMENTACIÓN: ['Mercado'],
-  SALUD: ['Seguridad Social', 'Coomeva'],
+  HOGAR: ['Arriendo', 'Reparaciones'],
+  ALIMENTACIÓN: ['Mercado', 'Restaurantes-Domicilios'],
+  SALUD: ['Seguridad Social', 'Coomeva', 'Medicamentos', 'Exámenes - Citas'],
   SERVICIOS: ['Celulares + Disney', 'Luz/gas', 'Acueducto', 'Claro Hogar + Netflix'],
-  HIJOS: ['Pensión Colegio', 'Pensión Jardin', 'Almuerzo Mate', 'Futbol - Cursos - Chicos'],
-  TRANSPORTE: ['Transporte', 'Combustible'],
-  AUTO: ['Seguro Auto', 'Impuestos/Revisión'],
+  HIJOS: ['Pensión Colegio', 'Pensión Jardin', 'Almuerzo Mate', 'Futbol - Cursos - Chicos', 'Regalos'],
+  TRANSPORTE: ['Transporte', 'Combustible', 'Parqueaderos - Peajes'],
+  AUTO: ['Seguro Auto', 'Impuestos/Revisión', 'Reparaciones - Mantenimiento', 'Lavado'],
   CREDITOS: ['Tarjetas de crédito', 'Préstamos'],
   OCIO: ['Gastos Ocio'],
   AHORRO: ['Ahorro'],
